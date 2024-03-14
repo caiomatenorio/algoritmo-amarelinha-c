@@ -12,7 +12,7 @@ int main(void)
     int amarelinha[][2] = {{0, -1}, {1, -1}, {2, -1}, {3, 4}, {5, -1}, {6, -1}, {7, 8}, {9, -1}, {10, -1}};
 
     int rodada = 1;
-    int indice = 3;
+    int indice = 0;
     int pesEm[] = {amarelinha[indice][0], amarelinha[indice][1]};
 
     while (rodada < 10)
